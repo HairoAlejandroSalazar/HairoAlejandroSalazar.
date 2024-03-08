@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Texto centrado</title>
-<style>
-  body {
-    background-color: aqua; /* Fondo azul aqua */
- 
-  }
-  .container {
-    text-align: center;
-    margin-top: 50px;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color y Tamaño</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-  <h1>Hairo Alejandro Salazar Cruz - "The King!"</h1>
-  <p>Esta es una página para la clase de Seguridad en Computo.</p>
-</div>
+    <button id="cambiarColorBtn">Cambiar Color</button>
+    <button id="cambiarTamanoBtn">Cambiar Tamaño</button>
+
+    <div class="contenedor">
+        <div class="imagen-contenedor">
+            <div class="titulo">Formula Vol.2</div>
+            <img src="https://m.media-amazon.com/images/I/81U1dPInpIL._UF1000,1000_QL80_.jpg" alt="Imagen 1" id="imagen1">
+        </div>
+        <div class="imagen-contenedor">
+            <div class="titulo">Golden álbum</div>
+            <img src="https://m.media-amazon.com/images/I/61i0UusTH9L._UF1000,1000_QL80_.jpg" alt="Imagen 2" id="imagen2">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
