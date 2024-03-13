@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
